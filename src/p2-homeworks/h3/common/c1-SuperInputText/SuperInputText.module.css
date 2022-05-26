@@ -1,0 +1,36 @@
+.superInput {
+    outline: none;
+    display:inline-block;
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid cornflowerblue;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: .5s;
+}
+
+.errorInput:focus{
+    background-color: lavenderblush;
+}
+
+.errorInput {
+    outline: none;
+    display:inline-block;
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid red;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 2px;
+    border-radius: 0px;
+}
+
+.error {
+    color: red;
+}

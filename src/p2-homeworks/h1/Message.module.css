@@ -1,0 +1,49 @@
+img {
+    width: 50px;
+    border: 2px solid dimgray;
+    border-radius: 200px;
+}
+.image{
+    grid-area: img;
+    align-self: end;
+}
+.name{
+    grid-area: name;
+    color: lavender;
+}
+.message{
+    grid-area: message;
+    color: aliceblue;
+}
+.time{
+    grid-area: time;
+    text-align: right;
+    color: darkgray;
+}
+.containerMessage {
+    display: grid;
+    grid-template-columns: 60px 200px 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas:
+    "img name"
+    "img message"
+    "img time";
+    padding: 10px;
+}
+.containerMessageText{
+    background-color: #293133;
+    border-radius: 10px 10px 10px 0;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+}
+.containerMessageText::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: radial-gradient(58px at top left, transparent 49%, #293133 51%) no-repeat right bottom;
+}

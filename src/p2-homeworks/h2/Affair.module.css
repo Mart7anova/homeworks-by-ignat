@@ -1,0 +1,4 @@
+.affairForm{
+    display: grid;
+    grid-template-columns: 200px 100px 25px 1fr;
+}

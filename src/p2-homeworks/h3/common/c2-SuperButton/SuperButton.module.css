@@ -1,0 +1,71 @@
+.default {
+    width:90px;
+    text-align:center;
+    display:inline-block;
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid;
+    color: dodgerblue;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+    transition: .5s;
+    border-radius: 0px;
+    background-color: white;
+}
+.default:hover:not([disabled]){
+    top: 5px;
+    transition: .5s;
+    color: dodgerblue;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #E0FFFF;
+}
+.default:active:not([disabled]) {
+    color: white;
+    border: 1px solid dodgerblue;
+    transition: .07s;
+    background-color: dodgerblue;
+}
+
+.default:disabled {
+    color:lightgrey ;
+    background-color: darkgray;
+    border-radius: 0px;
+}
+
+.red {
+    width:90px;
+    text-align:center;
+    display:inline-block;
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid;
+    color: red;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+    transition: .5s;
+    border-radius: 0px;
+    background-color: white;
+}
+.red:hover{
+    top: 5px;
+    transition: .5s;
+    color: red ;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: lavenderblush;
+}
+.red:active {
+    color: white;
+    border: 1px solid red;
+    transition: .07s;
+    background-color: red;
+}
