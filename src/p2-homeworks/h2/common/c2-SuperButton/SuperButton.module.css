@@ -2,19 +2,19 @@
     width:90px;
     text-align:center;
     display:inline-block;
-    font-family: Arial;
+    font-family: Arial, serif;
     text-decoration: none;
     font-weight: 300;
     font-size: 16px;
     border: 1px solid;
-    color: dodgerblue;
+    color: #CCC6FF;
     padding: 3px;
     padding-left: 5px;
     padding-right: 5px;
     margin: 5px;
     transition: .5s;
-    border-radius: 0px;
-    background-color: white;
+    border-radius: 0;
+    background-color: #293133;
 }
 .default:hover:not([disabled]){
     top: 5px;
@@ -22,38 +22,37 @@
     color: dodgerblue;
     border: 1px solid;
     border-radius: 10px;
-    background-color: #E0FFFF;
 }
 .default:active:not([disabled]) {
-    color: white;
-    border: 1px solid dodgerblue;
+    color: #293133;
+    border: 1px solid #293133;
     transition: .07s;
     background-color: dodgerblue;
 }
 
 .default:disabled {
-    color:lightgrey ;
-    background-color: darkgray;
-    border-radius: 0px;
+    color:lightslategrey ;
+    background-color: #696969;
+    border-radius: 0;
 }
 
 .red {
     width:90px;
     text-align:center;
     display:inline-block;
-    font-family: Arial;
+    font-family: Arial, serif;
     text-decoration: none;
     font-weight: 300;
     font-size: 16px;
     border: 1px solid;
-    color: red;
+    color: #CCC6FF;
     padding: 3px;
     padding-left: 5px;
     padding-right: 5px;
     margin: 5px;
     transition: .5s;
-    border-radius: 0px;
-    background-color: white;
+    border-radius: 0;
+    background-color: #293133;
 }
 .red:hover{
     top: 5px;
@@ -61,11 +60,11 @@
     color: red ;
     border: 1px solid;
     border-radius: 10px;
-    background-color: lavenderblush;
+    background-color: #293133;
 }
 .red:active {
-    color: white;
-    border: 1px solid red;
+    color: #293133;
+    border: 1px solid #293133;
     transition: .07s;
     background-color: red;
 }

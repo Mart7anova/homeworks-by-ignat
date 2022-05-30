@@ -17,7 +17,7 @@
     margin-right: 10px;
     width: 20px;
     height: 20px;
-    border: 1px solid cornflowerblue;
+    border: 1px solid #293133;
     border-radius: 12px;
 
 }
@@ -30,7 +30,7 @@
     margin: -5px 0 0 -6px;
     height: 4px;
     width: 8px;
-    border: solid #39ca74;
+    border: solid dodgerblue;
     border-width: 0 0 4px 4px;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -40,7 +40,7 @@
 }
 
 .checkbox:checked ~ .box {
-    border-color: #39ca74;
+    border-color: dodgerblue;
 }
 
 .checkbox:checked ~ .box:before {
@@ -48,11 +48,11 @@
 }
 
 .spanClassName {
-    font-family: Arial;
+    font-family: Arial, serif;
     text-decoration: none;
     font-size: 16px;
-    color: cornflowerblue;
+    color: #293133;
 }
 .checkbox:checked ~ .spanClassName{
-    color: #34bf6e;
+    color: dodgerblue;
 }

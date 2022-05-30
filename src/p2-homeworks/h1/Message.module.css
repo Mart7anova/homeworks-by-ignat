@@ -1,6 +1,6 @@
 img {
     width: 50px;
-    border: 2px solid dimgray;
+    border: 2px solid #293133;
     border-radius: 200px;
 }
 .image{
@@ -9,7 +9,7 @@ img {
 }
 .name{
     grid-area: name;
-    color: lavender;
+    color: #CCC6FF;
 }
 .message{
     grid-area: message;
