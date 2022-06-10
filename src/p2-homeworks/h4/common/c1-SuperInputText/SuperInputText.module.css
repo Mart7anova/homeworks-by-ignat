@@ -1,6 +1,6 @@
 .superInput {
     outline: none;
-    display:block;
+    display:inline-block;
     font-family: Arial, serif;
     text-decoration: none;
     font-weight: 300;
