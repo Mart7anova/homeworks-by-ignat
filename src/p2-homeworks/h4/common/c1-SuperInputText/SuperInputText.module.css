@@ -5,13 +5,16 @@
     text-decoration: none;
     font-weight: 300;
     font-size: 16px;
-    border: 1px solid cornflowerblue;
+    border: 1px solid #CCC6FF;
     color: white;
     background-color: #293133;
     padding: 3px;
     padding-left: 5px;
     padding-right: 5px;
     transition: .5s;
+}
+.superInput:hover{
+    border: 1px solid cornflowerblue;
 }
 
 .errorInput {

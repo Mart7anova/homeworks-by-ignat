@@ -1,7 +1,7 @@
 .default {
-    width:90px;
-    text-align:center;
-    display:inline-block;
+    width: 90px;
+    text-align: center;
+    display: inline-block;
     font-family: Arial, serif;
     text-decoration: none;
     font-weight: 300;
@@ -16,13 +16,15 @@
     border-radius: 0;
     background-color: #293133;
 }
-.default:hover:not([disabled]){
+
+.default:hover:not([disabled]) {
     top: 5px;
     transition: .5s;
     color: dodgerblue;
     border: 1px solid;
     border-radius: 10px;
 }
+
 .default:active:not([disabled]) {
     color: #293133;
     border: 1px solid #293133;
@@ -31,15 +33,15 @@
 }
 
 .default:disabled {
-    color:lightslategrey ;
+    color: lightslategrey;
     background-color: #696969;
     border-radius: 0;
 }
 
 .red {
-    width:90px;
-    text-align:center;
-    display:inline-block;
+    width: 90px;
+    text-align: center;
+    display: inline-block;
     font-family: Arial, serif;
     text-decoration: none;
     font-weight: 300;
@@ -54,14 +56,16 @@
     border-radius: 0;
     background-color: #293133;
 }
-.red:hover{
+
+.red:hover {
     top: 5px;
     transition: .5s;
-    color: red ;
+    color: red;
     border: 1px solid;
     border-radius: 10px;
     background-color: #293133;
 }
+
 .red:active {
     color: #293133;
     border: 1px solid #293133;

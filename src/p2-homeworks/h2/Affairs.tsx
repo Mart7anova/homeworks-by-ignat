@@ -5,8 +5,8 @@ import {AffairType, FilterType} from './HW2'
 
 type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
-    setFilter: (value:FilterType)=>void
-    deleteAffairCallback: (_id: number)=>void
+    setFilter: (value: FilterType) => void
+    deleteAffairCallback: (_id: number) => void
 }
 
 function Affairs(props: AffairsPropsType) {
@@ -18,10 +18,18 @@ function Affairs(props: AffairsPropsType) {
         />
     ))
 
-    const setAll = (priority:FilterType) => {props.setFilter(priority)} // need to fix
-    const setHigh = (priority:FilterType) => {props.setFilter(priority)}
-    const setMiddle = (priority:FilterType) => {props.setFilter(priority)}
-    const setLow = (priority:FilterType) => {props.setFilter(priority)}
+    const setAll = (priority: FilterType) => {
+        props.setFilter(priority)
+    } // need to fix
+    const setHigh = (priority: FilterType) => {
+        props.setFilter(priority)
+    }
+    const setMiddle = (priority: FilterType) => {
+        props.setFilter(priority)
+    }
+    const setLow = (priority: FilterType) => {
+        props.setFilter(priority)
+    }
 
 
     return (
@@ -33,10 +41,10 @@ function Affairs(props: AffairsPropsType) {
             <button onClick={()=>setHigh('high')}>High</button>
             <button onClick={()=>setMiddle('middle')}>Middle</button>
             <button onClick={()=>setLow('low')}>Low</button>*/}
-            <SuperButton onClick={()=>setAll('all')}>All</SuperButton>
-            <SuperButton onClick={()=>setHigh('high')}>High</SuperButton>
-            <SuperButton onClick={()=>setMiddle('middle')}>Middle</SuperButton>
-            <SuperButton onClick={()=>setLow('low')}>Low</SuperButton>
+            <SuperButton onClick={() => setAll('all')}>All</SuperButton>
+            <SuperButton onClick={() => setHigh('high')}>High</SuperButton>
+            <SuperButton onClick={() => setMiddle('middle')}>Middle</SuperButton>
+            <SuperButton onClick={() => setLow('low')}>Low</SuperButton>
         </div>
     )
 }

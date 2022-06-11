@@ -1,0 +1,15 @@
+.select{
+    width: 80px;
+    font-family: Arial, serif;
+    font-size: 16px;
+    border: 1px solid #CCC6FF;
+    color: white;
+    background-color: #293133;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.select:hover{
+    border: 1px solid cornflowerblue;
+}
+
